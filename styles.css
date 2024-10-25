@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    padding: 30px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #ffc107;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-size: 30px;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a:hover {
+    background: #ffc107;
+    color: #111;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a:active {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+}
+
+.welcome-section {
+    height: 100vh;
+    background: url('https://media.istockphoto.com/id/1295900106/vi/anh/c%C3%A1c-nh%C3%A0-khoa-h%E1%BB%8Dc-d%E1%BB%AF-li%E1%BB%87u-l%E1%BA%ADp-tr%C3%ACnh-vi%C3%AAn-nam-s%E1%BB%AD-d%E1%BB%A5ng-m%C3%A1y-t%C3%ADnh-x%C3%A1ch-tay-ph%C3%A2n-t%C3%ADch-v%C3%A0-ph%C3%A1t-tri%E1%BB%83n.jpg?s=612x612&w=0&k=20&c=SWVSJ20V0nS0l1PqdX83aoj0EcJK_m-LXCzg9vQ9BBA=') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-blend-mode: darken;
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-section h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.buttons .btn {
+    text-decoration: none;
+    background: #ffc107;
+    color: #111;
+    padding: 15px 40px;
+    margin: 0 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttons .btn:hover {
+    background: #fff;
+    color: #111;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.buttons .btn:active {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+}
+
+footer {
+    background-color: #222;
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+    border-top: 2px solid #ffc107;
+}
+
+.social-links a {
+    color: #ffc107;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #fff;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
